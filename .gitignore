@@ -1,18 +1,16 @@
 
 
-# Input video/model lokal dan hasil inferensi
+
 *.mp4
 *.pt
 *.docx
 
 outputs/
 
-# Berkas sementara Python
+
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
 config_video_example_gpu.json
 config_video_example.json
-VALIDATION.md
-DOKUMENTASI_ALUR.md
