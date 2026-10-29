@@ -1,0 +1,14 @@
+{
+  "reference_width": 2560,
+  "reference_height": 1440,
+  "area_id": "violation_area",
+  "main_area": [[0, 1439], [2559, 1439], [2558, 0], [0, 0]],
+  "violation_area": [[0, 812], [2557, 1018], [2555, 394], [0, 358]],
+  "confidence_threshold": 0.25,
+  "target_classes": ["Truck", "Light Vehicle", "Motorcycle", "Bus", "Truck HD", "Dozzer"],
+  "occluder_classes": ["Truck", "Light Vehicle", "Motorcycle", "Bus", "Truck HD", "Dozzer"],
+  "frame_edge_margin_px": 2,
+  "max_missing_frames": 30,
+  "device": "cpu",
+  "export_xlsx": false
+}
