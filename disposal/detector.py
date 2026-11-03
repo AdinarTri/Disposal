@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-from rules import Detection
+from .rules import Detection
 
 
 class Detector:

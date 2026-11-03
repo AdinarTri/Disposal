@@ -16,3 +16,4 @@ config_video_example_gpu.json
 config_video_example.json
 VALIDATION.md
 DOKUMENTASI_ALUR.md
+.gitignore

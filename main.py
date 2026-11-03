@@ -7,11 +7,11 @@ from uuid import uuid4
 
 import cv2
 
-from detector import Detector
-from reporter import Reporter
-from rules import Episodes, evaluate, validate_polygon
-from tracker import Tracker
-from video_io import draw
+from disposal.detector import Detector
+from disposal.reporter import Reporter
+from disposal.rules import Episodes, evaluate, validate_polygon
+from disposal.tracker import Tracker
+from disposal.video_io import draw
 
 
 def load_config(path, width, height):

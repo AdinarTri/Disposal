@@ -1,0 +1,62 @@
+{
+  "reference_width": 1280,
+  "reference_height": 960,
+  "area_id": "violation_area",
+  "main_area": [
+    [
+      1,
+      958
+    ],
+    [
+      1279,
+      959
+    ],
+    [
+      1279,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "violation_area": [
+    [
+      1279,
+      672
+    ],
+    [
+      6,
+      532
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      1278,
+      5
+    ]
+  ],
+  "confidence_threshold": 0.25,
+  "target_classes": [
+    "Truck",
+    "Light Vehicle",
+    "Motorcycle",
+    "Bus",
+    "Truck HD",
+    "Dozzer"
+  ],
+  "occluder_classes": [
+    "Truck",
+    "Light Vehicle",
+    "Motorcycle",
+    "Bus",
+    "Truck HD",
+    "Dozzer"
+  ],
+  "frame_edge_margin_px": 2,
+  "max_missing_frames": 30,
+  "device": "cuda:0",
+  "export_xlsx": false
+}

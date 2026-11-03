@@ -2,8 +2,8 @@ import unittest
 
 from shapely.geometry import Polygon
 
-from rules import Detection, Episodes, evaluate
-from tracker import Tracker
+from disposal.rules import Detection, Episodes, evaluate
+from disposal.tracker import Tracker
 
 
 class RuleTests(unittest.TestCase):
